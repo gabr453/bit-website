@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+html,body {
+  height: 100%;
+  background-color: #fdf0f5;  
+  font-family: 'Quicksand', sans-serif;
+}
+
+body{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+
+}
+.redireccion a {
+  margin-bottom: auto;
+  color: #b43c6c;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none; /* Quita el subrayado de los enlaces */
+}
+
+.redireccion {
+  display: flex; 
+  gap: 10px; 
+  list-style: none; /* Quita los puntos de la lista */
+  padding: 0;
+
+}
+
+.portada {
+  display: flex;               /* Coloca las imágenes en fila */
+  width: 100%;                 
+  max-height: 600px;           
+  overflow: hidden;            /* Evita que sobresalgan elementos */
+}
+
+.portada img {
+  width: 50%;                 
+  height: auto;               
+  object-fit: cover;      
+}     
+.seccion {
+  background-color: #fff5f9; 
+  padding: 30px;
+  border-radius: 20px;
+  margin: 40px auto;
+  max-width: 800px;
+  font-family: 'Quicksand', sans-serif;
+  color: #aa2957;
+
+}
+
+.seccion dt {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+  color: #cc4778;
+}
+
+.seccion dd {
+  margin: 10px 0 20px 0;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.sueños{
+  background-color: #fff5f9;
+  padding: 20px;            
+  border-radius: 15px;       
+  text-align: left;        
+  width: 90%;                
+  margin: 20px auto;         
+  font-family: 'Quicksand', sans-serif;
+}
+.sueños h2 {
+  text-align: center;
+  color: #cc4778;
+  margin-bottom: 20px;
+  font-family: 'Playfair Display', serif;
+}
+
+.sueños li {
+  background-color: #fff;     
+  margin-bottom: 10px;       
+  padding: 10px;              
+  border-radius: 10px;       
+  font-size: 16px;            
+  color: #aa2957;
+             
+}
+
+
+video {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 20px;
+  display: block; 
+}
+h2{
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+
+}
+ footer{
+  background-color: #fff5f9;
+  padding: 2%;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+
+ }
+ h1{
+  color: #aa2957;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+ }
+ h2 {
+  color: #aa2957;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+}
+
+ h3 {
+  color: #aa2957;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+}
+aside{
+  text-align: center;
+}
+
+table {
+  background-color: #fff;
+  width: 80%;             
+  margin: auto;     
+  border-radius: solid;
+  font-size: 16px;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+ caption{
+  font-family: 'Playfair Display', serif;
+  color: #cc4778;
+ }
+.banda{
+  color: #cc4778;
+  font-family: 'Quicksand', sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  margin-bottom: auto;
+}
+
+.hobbies {
+  background-color: #fff0f7;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: 'Quicksand', sans-serif;
+  color: #aa2957;
+}
+.contacto {
+  background-color: #fff0f7;
+  padding: 40px;
+  border-radius: 20px;
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 50px auto;
+}
+.contacto h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+label{
+  text-align: left;
+
+}
+button {
+  background-color: #ec407a;
+  color: white;
+  border: none;
+  padding: 8px 16px; 
+  border-radius: 10px; 
+  font-size: 14px; 
+}
+.hobbies {
+  background-color: #fff0f5; 
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 800px;
+  margin: 40px auto;
+  font-family: 'Segoe UI', sans-serif;
+
+}
+
+.hobbies p {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+
+.hobbies li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #880e4f; 
+
+}
+
