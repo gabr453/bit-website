@@ -13,28 +13,77 @@
         <a href="index.html"></a>
         <ul class="redireccion">
           <li><a href="sobremi.html">SOBRE MÍ</a></li>
-          <li><a href="misproyectos.html">MIS HOBBIES</a></li>
           <li><a href="index.html">INICIO</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section class="contacto" >
+      <section class="contacto">
         <h1>Contáctame</h1>
-        <form >
+        <form>
           <label for="name">Nombre</label>
           <input type="text" id="name" />
-      
+
           <label for="email">Correo electrónico</label>
-          <input type="email" id="email"/>
-      
+          <input
+            type="email"
+            id="email"
+            placeholder="nombre@correo.com"
+            required
+          />
+          <label for="tel">Telefono</label>
+          <input type="tel" id="tel" required />
+
           <label for="message">Mensaje</label>
-          <textarea id="message" name="message" ></textarea>
-      
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Escribe tu mensaje..."
+            required
+          ></textarea>
+
           <button type="submit">Enviar</button>
+
+          <div class="redes-contacto">
+            <p>Sígueme en redes:</p>
+            <a href="https://www.instagram.com/gabr453/" target="_blank"
+              >Instagram</a
+            >
+            |
+            <a
+              href="https://www.facebook.com/profile.php?id=100081167671895"
+              target="_blank"
+              >Facebook</a
+            >
+          </div>
         </form>
+        
       </section>
-      
+      <table class="horario">
+        <caption>
+          🕘 Horario de atención
+        </caption>
+        <thead>
+          <tr>
+            <th>Día</th>
+            <th>Horario</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Lunes - Viernes</td>
+            <td>9:00 AM - 6:00 PM</td>
+          </tr>
+          <tr>
+            <td>Sábado</td>
+            <td>10:00 AM - 4:00 PM</td>
+          </tr>
+          <tr>
+            <td>Domingo</td>
+            <td>Cerrado</td>
+          </tr>
+        </tbody>
+      </table>
     </main>
   </body>
 </html>
