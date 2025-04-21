@@ -37,7 +37,6 @@ nav {
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 2rem;
   margin: 0;
   padding: 0;
 }
@@ -48,7 +47,6 @@ nav {
   font-weight: 500;
   font-size: 20px;
   padding: 0.5rem 1rem;
-  border-radius: 12px;
   transition: background-color 0.3s ease;
 }
 
